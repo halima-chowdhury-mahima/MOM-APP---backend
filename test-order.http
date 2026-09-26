@@ -1,0 +1,17 @@
+POST http://localhost:5000/api/orders
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjZhYTZkOGNjOWNlZWJjZTA2MGIxMmE1NiIsInJvbGUiOiJ1c2VyIiwiaWF0IjoxNzg5MzIyMDk2LCJleHAiOjE3ODk5MjY4OTZ9.JF0QLUVnE-q4TtEX7hg5mIsZCCHJgAuwVAS5yp2I8I8
+
+{
+  "items": [
+    {
+      "product": "6aa6df661a106e156701457c",
+      "name": "Premium Rice",
+      "price": 80,
+      "quantity": 2
+    }
+  ],
+  "totalAmount": 160,
+  "deliveryAddress": "Dhaka, Bangladesh",
+  "paymentMethod": "cash_on_delivery"
+}

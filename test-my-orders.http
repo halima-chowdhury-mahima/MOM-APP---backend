@@ -1,0 +1,2 @@
+GET http://localhost:5000/api/orders/my-orders
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjZhYTZkOGNjOWNlZWJjZTA2MGIxMmE1NiIsInJvbGUiOiJ1c2VyIiwiaWF0IjoxNzg5MzIyNTExLCJleHAiOjE3ODk5MjczMTF9.xdaO1RNjAu6n2nJ0q2qBbo4jnkG7yIaaQjCx0D4-hRQ
